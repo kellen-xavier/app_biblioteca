@@ -64,6 +64,12 @@ Exemplos de refatoração:
 - Linguagem: C#
 - IDE: Visual Studio
 
+## Referências
+
+[Para conhecimento: Desenvolver aplicativos ASP.NET Core MVC](https://learn.microsoft.com/pt-br/dotnet/architecture/modern-web-apps-azure/develop-asp-net-core-mvc-apps)
+
+[Princípios de arquitetura](https://learn.microsoft.com/pt-br/dotnet/architecture/modern-web-apps-azure/architectural-principles)
+
 ## Licença
 
 Este projeto é de código aberto e pode ser utilizado para estudos e aperfeiçoamento em programação.
