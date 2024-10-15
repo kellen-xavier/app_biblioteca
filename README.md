@@ -14,9 +14,39 @@ A aplicação permite:
 
 Objetivo:
 
-Refatorar e otimizar um sistema de biblioteca simples em C# utilizando os conceitos de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento.
+- Refatorar e otimizar um sistema de biblioteca simples em C# utilizando os conceitos de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento.
 
-## Estrutura do Projeto
+**Refatoração:**
+Aplicar os conceitos de classes e objetos, construtores e sobrecarga, e tipos de valor e referência para melhorar a organização e a legibilidade do código. Analise a aplicação visando algumas possíveis melhorias, deixando mais simples:
+
+Exemplos de refatoração:
+
+    Encapsulamento: Criar propriedades privadas e métodos públicos para controlar o acesso aos dados.
+
+    Herança: Identificar classes que podem herdar de uma classe base para evitar duplicação de código.
+
+    Polimorfismo: Utilizar interfaces ou classes abstratas para criar hierarquias de classes e permitir diferentes implementações de métodos.
+
+    Coleções: Empregar coleções como List, Dictionary ou HashSet para armazenar e manipular dados de forma eficiente.
+
+- Refatore o projeto utilizando boas práticas vistas em aula. Pratique alguns conceitos que voltaremos a ver nesta semana:
+**Classes e Objetos**
+**Construtores e Sobrecarga**
+**Tipos de Valor e Tipos de Referência em C#** Melhore a performance desta aplicação. Teste suas implementações com diferentes valores e verifique os resultados, não alterando a regra de negócio.
+
+- **Documente suas observações e a saída dos programas:** Não utilize comentários no código, a ideia é documentar a aplicação de forma objetiva e clara.
+
+- **Extensibilidade:** Deixe o projeto mais flexível para futuras funcionalidades, como adicionar mais interações ou tipos de livros. Adicione mais livros as esta lista, e crie uma interação ao usuário para voltar a esta lista.
+
+### Boas Práticas
+
+    Nomenclatura: Utilizar nomes significativos para classes, métodos e variáveis.
+
+    Comentários: Embora o enunciado original proíba comentários no código, é importante adicionar comentários em locais estratégicos para explicar a lógica complexa ou decisões de design.
+    
+    Testes: Criar testes unitários para garantir a qualidade do código e detectar possíveis regressões.
+
+## Estrutura do Projeto Inicial
 
 - **Model (Livro.cs):** Representa os dados do livro.
 - **View (BibliotecaView.cs):** Responsável pela exibição das informações e interação com o usuário.
